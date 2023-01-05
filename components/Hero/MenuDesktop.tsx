@@ -6,18 +6,18 @@ const MenuDesktop = () => {
     <nav>
       <ul className="flex list-none items-center justify-around flex-nowrap">
         <li className="navMenu ">
-          <Link href="Intro" className="navLink">
+          <Link href="#" className="navLink">
             INTRO
           </Link>
         </li>
         <li className="navMenu">
-          <a href="Works" className="navLink">WORKS</a>
+          <a href="#works" className="navLink">WORKS</a>
         </li>
         <li className="navMenu">
-          <a href="About" className="navLink">ABOUT</a>
+          <a href="#about" className="navLink">ABOUT</a>
         </li>
         <li className="navMenu">
-          <a href="Contact" className="navLink">CONTACT</a>
+          <a href="#contact" className="navLink">CONTACT</a>
         </li>
         <li className="navMenu">
           <a href="Resume" className="navLink">RESUME</a>
