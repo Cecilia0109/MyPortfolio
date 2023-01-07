@@ -1,1 +1,1 @@
-export const skills = ["Bootstrap","Css3","Es6","Html5","Javascript","Nodejs","React","Sass","Typescript"]
+export const skills = ["NextJs","MongoDB","NestJs","Typescript","Nodejs","SQL","React","Javascript","Sass","Tailwind","Bootstrap","Css3","Es6","Html5"]

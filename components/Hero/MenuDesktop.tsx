@@ -3,8 +3,8 @@ import React from "react";
 
 const MenuDesktop = () => {
   return (
-    <nav>
-      <ul className="flex list-none items-center justify-around flex-nowrap">
+    <nav className="w-[75vw] fixed top-0 left-0 md:mx-[100px] lg:mx-[200px] z-50 bg-nav">
+      <ul className="flex list-none items-center justify-around flex-nowrap w-full cursor-pointer font-light tracking-widest">
         <li className="navMenu ">
           <Link href="#" className="navLink">
             INTRO

@@ -9,6 +9,7 @@ body,html {
     color:white;
     background-color:#141516 ;
     box-sizing: border-box;
+    width: 100vw;
   }
 
 
@@ -23,7 +24,7 @@ body,html {
         @apply h-[1px] w-16 bg-white opacity-50 absolute top-[50%] left-0
     }
     .heading {
-        @apply relative text-sm pl-20 tracking-[0.2em] text-yellow
+        @apply relative  text-xs md:text-sm pl-20 tracking-[0.2em] text-yellow
     }
     .btn {
         @apply block px-9 py-4 text-yellow bg-[#2C2C2D] w-[400px] text-center hover:text-black hover:bg-white rounded-lg tracking-[0.35em]
@@ -36,5 +37,8 @@ body,html {
     }
     .projectInfoBefore {
         @apply block w-0 h-[1px] absolute top-0 left-0 bg-[#72737373] 
+    }
+    .headingPrimary {
+       @apply  text-[52px]  md:text-7xl xl:text-8xl mt-6 font-serif leading-tight
     }
 }

@@ -4,7 +4,7 @@ import { skills } from "../../Constants/skills";
 
 const SkillBox = () => {
   return (
-    <div className="inline-flex gap-4 text-[#a1a1a2]">
+    <div className="inline-flex gap-4 text-[#a1a1a2] w-full flex-wrap">
       {skills.map((item, index) => (
         <div
           className="item flex bg-[#2C2C2D] px-6 gap-2 rounded-xl"

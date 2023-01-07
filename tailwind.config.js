@@ -14,7 +14,8 @@ module.exports = {
       colors:{
         'yellow':'#e2b975',
         'borderBlack':"rgba(255, 255, 255, 0.05)",
-        'lightWhite':"rgba(255,255,255,0.75)"
+        'lightWhite':"rgba(255,255,255,0.75)",
+        "nav":"#141516"
       }
     },
   },
