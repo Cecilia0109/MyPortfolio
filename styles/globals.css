@@ -41,4 +41,7 @@ body,html {
     .headingPrimary {
        @apply  text-[52px]  md:text-7xl xl:text-8xl mt-6 font-serif leading-tight
     }
+    .headingSecondary {
+        @apply text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif leading-tight
+    }
 }

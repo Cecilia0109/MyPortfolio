@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <section className="py-24 border-b-[1px] border-borderBlack" id="contact" >
       <h3 className="heading before:headingBefore mb-4">GET IN TOUCH</h3>
-      <p className="headingPrimary">
+      <p className="headingSecondary">
         I love to hear from you. Whether you have a question or just want to
         chat about software engineering and tech — shoot me a message.
       </p>
