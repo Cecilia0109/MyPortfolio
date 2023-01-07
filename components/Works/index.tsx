@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
+import { works } from "../../Constants/data";
 
 const Works = () => {
   return (
@@ -8,9 +9,11 @@ const Works = () => {
       <p className="headingSecondary pb-8 md:pb-24 ">
         Here are some of the projects I&apos;ve built. Feel free to check them out.
       </p>
-      <ProjectItem />
-      <ProjectItem />
-      <ProjectItem />
+      {works.map((item,index) => (
+         <ProjectItem key={index} {...item}/>
+      ))}
+      
+      
     </div>
   );
 };
