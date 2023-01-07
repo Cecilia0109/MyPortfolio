@@ -8,7 +8,7 @@ const ProjectItem = ({...item}) => {
   const {title,desc,src,source,link} = item
   return (
     <li className="relative list-none my-16">
-      <a href={link} className="flex justify-center flex-col md:flex-row gap-4 md:gap-16  lg:gap-8 group/project transition-all duration-500 ease-in-out">
+      <Link href={link} className="flex justify-center flex-col md:flex-row gap-4 md:gap-16  lg:gap-8 group/project transition-all duration-500 ease-in-out">
         <div className="relative before:projectBefore w-full h-[200px]  md:w-[40%] lg:w-[30%] before:group-hover/project:opacity-100 transition-all duration-500">
           <Image
             src={src}
@@ -27,10 +27,10 @@ const ProjectItem = ({...item}) => {
            {desc}
           </p>
         </div>
-      </a>
-      <a href={link} className="absolute top-[60%] md:top-[18%] right-[10%] hover:scale-110 duration-300">
+      </Link>
+      <Link href={link} className="absolute top-[60%] md:top-[18%] right-[10%] hover:scale-110 duration-300">
         <BsArrowUpRight size={20} />
-      </a>
+      </Link>
     </li>
   );
 };
