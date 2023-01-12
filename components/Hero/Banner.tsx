@@ -13,7 +13,7 @@ const Banner = () => {
     <div className="pt-[22.5vh] max-w-[1400px]">
       <h3 className="heading before:headingBefore">HELLO WORLD</h3>
       <h1 className="text-[#B9B9B9] headingPrimary">
-        I am Cecilia Lei, <br /> a creative <br /> Full Stack Developer
+        I am Cecilia Lei, <br /> a creative <br /> Web Designer
       </h1>
       <div className="flex mt-10 gap-5 lg:gap-10  flex-col md:flex-row">
         <Link href="#works" className="btn">
