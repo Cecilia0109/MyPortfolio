@@ -27,7 +27,7 @@ body,html {
         @apply relative  text-xs md:text-sm pl-20 tracking-[0.2em] text-yellow
     }
     .btn {
-        @apply block px-9 py-4 text-yellow bg-[#2C2C2D] w-[400px] text-center hover:text-black hover:bg-white rounded-lg tracking-[0.35em]
+        @apply block px-9 py-4 text-yellow bg-[#2C2C2D] md:max-w-[70%] lg:max-w-[50%] text-center hover:text-black hover:bg-white rounded-lg tracking-[0.35em] transition-all duration-300
     }
     .projectBefore {
         @apply z-10 bg-lightWhite opacity-0 absolute w-full h-full block

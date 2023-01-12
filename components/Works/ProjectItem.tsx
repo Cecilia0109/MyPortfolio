@@ -2,7 +2,7 @@ import React from "react";
 import { BsArrowUpRight } from "react-icons/bs";
 import Image from "next/image";
 import Link from "next/link";
-// FIXME: duration 500 doesn't work
+
 const ProjectItem = ({...item}) => {
 
   const {title,desc,src,source,link} = item
@@ -28,7 +28,7 @@ const ProjectItem = ({...item}) => {
           </p>
         </div>
       </Link>
-      <Link href={link} className="absolute top-[60%] md:top-[18%] right-[10%] hover:scale-110 duration-300">
+      <Link href={link} className="absolute top-[75%] md:top-[18%] right-[10%] hover:scale-110 duration-300">
         <BsArrowUpRight size={20} />
       </Link>
     </li>

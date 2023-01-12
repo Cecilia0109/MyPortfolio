@@ -7,7 +7,7 @@ const SkillBox = () => {
     <div className="inline-flex gap-4 text-[#a1a1a2] w-full flex-wrap">
       {skills.map((item, index) => (
         <div
-          className="item flex bg-[#2C2C2D] px-6 gap-2 rounded-xl"
+          className="item flex bg-[#2C2C2D] px-3 md:px-6 gap-2 rounded-xl"
           key={index}
         >
           <div className="w-[40px] h-[60px] relative inline-block">

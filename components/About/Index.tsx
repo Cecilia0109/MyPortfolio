@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section className="py-24 flex flex-col md:flex-row w-full items-center gap-16" id="about">
+    <section className="py-24 flex flex-col md:flex-row w-full items-center gap-16 max-w-7xl" id="about">
       <div className="max-w-full md:max-w-[60%] lg:max-w-[40%]">
         <Image
           src="/photo1.jpg"
