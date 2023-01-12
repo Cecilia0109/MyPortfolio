@@ -21,7 +21,7 @@ const Banner = () => {
         </Link>
         <Link
           href="mailto:qinger.lei0109@gmail.com"
-          className="px-9 py-4 rounded-full text-[#B9B9B9] hover:text-yellow  flex items-center gap-2 hover:gap-6 md:max-w-[40%] lg:max-w-[50%] tracking-[0.35em] transition-all duration-300"
+          className="px-2 py-4 rounded-full text-[#B9B9B9] hover:text-yellow  flex items-center gap-2 hover:gap-6 md:max-w-[40%] lg:max-w-[50%] tracking-[0.35em] transition-all duration-300"
         >
           REACH ME OUT
           <span>
